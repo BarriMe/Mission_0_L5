@@ -1,0 +1,97 @@
+#root {
+  text-align: center;
+}
+
+.centreImages {
+  margin: 20px;
+  border: 10px white solid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width:17%;
+  height:auto;
+  display: flex;
+}
+
+.centreDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1300px) {
+    .centreDiv {
+        flex-direction: column;
+    }
+    .centreImages {
+        max-width: 90%;
+        height: auto;
+    }
+  }
+
+.title {
+  background-color: white;
+  color: black;
+  display: inline;
+  width: 220px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 10px;
+  margin: 20px;
+  font-family: 'Tahoma';
+}
+
+.Search {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 10px;
+  margin: 20px;
+}
+
+div > p {
+ background-color: white;
+ color: black;
+ font-weight: bold;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: black;
+}
+
+.footer {
+  background-color: grey;
+  height: 3vh;
+}
+
+.header {
+  background-color: grey;
+  height: 5vh;
+}
+
+.searchBtn {
+  border-radius: 7px;
+  border: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
